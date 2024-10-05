@@ -189,7 +189,7 @@ class UniversityTile extends StatelessWidget {
     if (await canLaunch(url)) {
       await launch(url);
     } else {
-      throw 'Could not $url';
+      throw 'Could not launch $url';
     }
   }
 }
